@@ -1,77 +1,60 @@
-
 * {
-    box-sizing: border-box;
-  }
-  html {
-    scroll-behavior: smooth;
-  }
-  img {
-    display: block;
-    max-width: 100%;
-  }
-  a {
-    text-decoration: none;
-    color: inherit;
-  }
-  ul {
-    list-style: none;
-    padding-left: 0;
-    margin-top: 0;
-    margin-bottom: 0;
-  }
-body{
-    margin: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+body {
+  margin: 0;
   font-family: "Lexend Deca", sans-serif;
   color: white;
-    background-color: rgb(51, 51, 51);
+  background-color: rgb(51, 51, 51);
 }
 
-.text{
-    margin: 20px;
+.text {
+  margin: 20px;
 }
-.boxes{
-    margin: 20px;
+.box {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
 }
-.box1{
-   background-color: orange; 
-   width: 100px;
-   height: 100px;
-   margin-bottom: 10px;
+.uno {
+  background-color: orange;
 }
-.box2{
-   background-color: rgb(0, 255, 242); 
-   width: 100px;
-   height:100px;
-   border: solid 6px purple;
-   margin-bottom: 10px;
+.dos {
+  background-color: rgb(0, 255, 242);
+  border: solid 6px purple;
 }
-.box3{
-background-color: purple;
-width: 100px;
-height:100px;
-border-right:dashed 10px coral ;
-margin-bottom: 10px;
+.tres {
+  background-color: purple;
+  border-right: dashed 10px coral;
 }
-.box4{
-    background-color: rgb(17, 119, 105);
-    width: 100px;
-height:100px;
-border-radius: 45px 10px 45px 10px;
-margin-bottom: 10px;
+.cuatro {
+  background-color: rgb(17, 119, 105);
+  border-radius: 45px 10px 45px 10px;
 }
-.box5{
-    background-color: coral;
-    width: 100px;
-height:100px;
-border-radius: 0 50px 0 0;
-border-bottom: double 20px red ;
-margin-bottom: 10px;
+.cinco {
+  background-color: coral;
+  border-radius: 0 50px 0 0;
+  border-bottom: double 20px red;
 }
-.box6{
-    background-color: limegreen;
-    width: 100px;
-height:100px;
-border-radius: 25px 45px 15px 90px;
-border-left: dotted 20px yellow;
-margin-bottom: 10px;
+.seis {
+  background-color: limegreen;
+  border-radius: 25px 45px 15px 90px;
+  border-left: dotted 20px yellow;
 }
